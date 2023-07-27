@@ -1,12 +1,12 @@
 #include <iostream>
 using namespace std;
 
-void change(string); // Prototype
+void change(string); // function prototype
 
 int main()
 {
     string str = "Happy";
-    change(str);  // copy will be sent
+    change(str);
     cout << str << endl;
 
     return 0;
