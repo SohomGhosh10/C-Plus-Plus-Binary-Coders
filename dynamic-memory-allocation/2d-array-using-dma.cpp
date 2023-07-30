@@ -8,7 +8,7 @@ int main()
     int **arr = new int *[row]; // Allocating memory for rows
 
     for (int i = 0; i < row; i++)
-        arr[i] = new int[col]; // Allocating memory for coloumns
+        arr[i] = new int[col]; // Allocating memory for coloumns 
 
     for (int i = 0; i < row; i++)
         for (int j = 0; j < col; j++)
